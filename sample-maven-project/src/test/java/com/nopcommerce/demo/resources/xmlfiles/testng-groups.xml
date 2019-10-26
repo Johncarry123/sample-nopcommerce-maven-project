@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression TestSuite">
+<test name="GroupsDemo">
+<groups>
+	<define name="Regression Test">
+		<include name="windows.*"></include>
+	</define>
+
+
+	<run>
+		<include name="Regression Test"></include>
+	</run>
+</groups>
+	<classes>
+		<class name="com.nopcommerce.demo.TestNG.TestNG_Grouping"></class>
+
+	</classes>
+</test>
+</suite>

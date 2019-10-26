@@ -1,11 +1,15 @@
 package com.nopcommerce.demo.utility;
 
 import com.nopcommerce.demo.basepage.BasePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -194,6 +198,63 @@ public class Util extends BasePage {
      */
     public List<WebElement> webElementList(By by) {
         return driver.findElements(by);
+    }
+
+    /**
+     * This method will generate random string
+     *
+     * @param length
+     * @return
+     */
+    public static String getRandomString(int length) {
+        StringBuilder sb = new StringBuilder();
+        String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        for (int i = 0; i < length; i++) {
+            int index = (int) (Math.random() * characters.length());
+            sb.append(characters.charAt(index));
+        }
+        return sb.toString();
+    }
+
+    /**
+     * This method will take screen shot
+     */
+    public void takeScreenShot() {
+        String filePath = System.getProperty("user.dir") + "\\src\\main\\java\\com\\demo\\nopcomerce\\screenshots\\";
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(scr1, new File(filePath + getRandomString(10) + ".jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void takeScreenShot(String fileName) {
+        String filePath = System.getProperty("user.dir") + "\\src\\main\\java\\com\\demo\\nopcomerce\\screenshots\\";
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(scr1, new File(filePath + fileName + ".jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static String getScreenshot(WebDriver driver, String screenshotName) {
+        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        // After execution, you could see a folder "FailedTestsScreenshots" under screenshot folder
+        String destination = System.getProperty("user.dir") + "\\src\\main\\java\\com\\nopcommerce\\demo\\screenshot\\" + screenshotName + dateName + ".png";
+        File finalDestination = new File(destination);
+        try {
+            FileUtils.copyFile(source, finalDestination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return destination;
     }
 
 }
