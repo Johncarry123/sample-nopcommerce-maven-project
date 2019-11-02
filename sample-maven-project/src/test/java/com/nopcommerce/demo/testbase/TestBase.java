@@ -6,6 +6,8 @@ import com.nopcommerce.demo.loadproperty.LoadProperty;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by Jay
  */
@@ -18,6 +20,9 @@ public class TestBase extends BasePage {
     @BeforeMethod
     public void setUp(){
         browserSelector.selectBrowser(browser);
+        driver.get(new LoadProperty().getProperty("baseUrl"));
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
     @AfterMethod

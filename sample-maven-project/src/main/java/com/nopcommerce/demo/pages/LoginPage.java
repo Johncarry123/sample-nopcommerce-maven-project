@@ -10,7 +10,7 @@ public class LoginPage extends Util {
 
     By emailField = By.id("Email");
     By passwordField = By.id("Password");
-    By loginBtn = By.xpath("//input[@class='button-1 login-button']");
+    By loginBtn = By.xpath("//input[@value='Log in']");
     By welcomeText = By.xpath("//h1[contains(text(),'Welcome, Please Sign In!')]");
 
     public void enterEmail(String email){
@@ -27,5 +27,16 @@ public class LoginPage extends Util {
 
     public String welcomeText(){
        return getTextFromElement(welcomeText);
+    }
+
+    public void loginToApplication(String email, String password){
+        enterEmail(email);
+        enterPassword(password);
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        clickOnLoginButton();
     }
 }

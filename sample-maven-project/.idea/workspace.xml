@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3da16b-7abc-4d7e-8435-e92baaf286a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErrorScreenshots/nopCommerceTitleTest20191026011935.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/myReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/SomeClassToTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListenersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGParametersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGRetryFailedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_DependentTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_Grouping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_SoftAsserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-groups.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testnglisteners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testngparameter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/ExtentReportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hello.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/excelutility/ExcelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/excelutility/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/ExcelData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/ExcelRead.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTestWithDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTestWithParameterAndParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/UsingExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/utility/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/utility/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,68 +30,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListenersDemo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGParametersDemo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_Priority.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_SoftAsserts.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListeners.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_DependentTests.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-groups.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testnglisteners.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testngparameter.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/ExtentReportDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="95" column="89" selection-start-line="95" selection-start-column="89" selection-end-line="95" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -106,26 +37,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>oad</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/basepage/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/loadproperty/LoadProperty.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/propertiesfile/config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/utility/Util.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_DependentTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/ExtentReportDemo.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -134,101 +52,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1T20EBauEDpzGLaQ2phGjx8ikT9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample-maven-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-maven-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -239,11 +67,11 @@
       <recent name="com.nopcommerce.demo.testsuite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo" />
+      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\main\java\com\nopcommerce\demo" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo\resources" />
+      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo\resources\xmlfiles" />
+      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project" />
-      <recent name="C:\Users\Hello\IdeaProjects\sample-maven-project\drivers" />
-      <recent name="C:\Users\Hello\IdeaProjects\sample-maven-project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,8 +86,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UsingExcel.testUsingExcel">
+    <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.excelutility.ExcelRead" />
+      <module name="sample-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.demo.excelutility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/PrimeBatch_2/sample-nopcommerce-maven-project/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sample-maven-project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sample-maven-project" />
       <extension name="coverage">
         <pattern>
@@ -268,7 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTestWithDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -276,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.userShouldLoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestWithDataProvider.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sample-maven-project" />
       <extension name="coverage">
         <pattern>
@@ -285,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTest" />
-      <option name="METHOD_NAME" value="userShouldLoginSuccessfully" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTestWithDataProvider" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -294,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UsingExcel.testUsingExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sample-maven-project" />
       <extension name="coverage">
         <pattern>
@@ -303,8 +154,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTest" />
-      <option name="METHOD_NAME" value="userShouldNavigateToLogInPageSuccessfully" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.UsingExcel" />
+      <option name="METHOD_NAME" value="testUsingExcel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -314,9 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.userShouldLoginSuccessfully" />
-        <item itemvalue="TestNG.LoginTest.userShouldNavigateToLogInPageSuccessfully" />
+        <item itemvalue="TestNG.UsingExcel.testUsingExcel" />
+        <item itemvalue="Application.ExcelRead" />
+        <item itemvalue="TestNG.LoginTestWithDataProvider.loginTest" />
+        <item itemvalue="TestNG.C:/PrimeBatch_2/sample-nopcommerce-maven-project/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" />
+        <item itemvalue="TestNG.LoginTestWithDataProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -331,231 +184,32 @@
       <option name="presentableId" value="Default" />
       <updated>1571482497083</updated>
     </task>
+    <task id="LOCAL-00001" summary="Today's demo">
+      <created>1572111481500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572111481500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 14h 33m 49s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 14h 34m 32s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 14h 35m 50s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 15h 38m 59s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 15h 39m 23s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 15h 44m 34s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldNavigateToLogInPageSuccessfully - 2019.10.19 at 15h 45m 09s.xml">
-      <configuration name="LoginTest.userShouldNavigateToLogInPageSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_userShouldLoginSuccessfully - 2019.10.19 at 15h 53m 09s.xml">
-      <configuration name="LoginTest.userShouldLoginSuccessfully" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.19 at 15h 54m 13s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16044776" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.54931974" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30306122" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.54931974" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/loadproperty/LoadProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/basepage/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/propertiesfile/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/utility/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="258" selection-start-line="257" selection-start-column="5" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/RetryAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/SomeClassToTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_Grouping.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGRetryFailedDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListenersDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGParametersDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_Priority.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_SoftAsserts.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNGListeners.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/TestNG/TestNG_DependentTests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-groups.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testnglisteners.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testngparameter.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/ExtentReportDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="95" column="89" selection-start-line="95" selection-start-column="89" selection-end-line="95" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Today's demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today's demo" />
   </component>
   <component name="masterDetails">
     <states>
