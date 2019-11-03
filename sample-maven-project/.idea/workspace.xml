@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3da16b-7abc-4d7e-8435-e92baaf286a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hello.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/excelutility/ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/excelutility/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/ExcelData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/ExcelRead.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/testdata/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTestWithDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/LoginTestWithParameterAndParallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testsuite/UsingExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/propertiesfile/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/browserselector/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/basepage/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nopcommerce/demo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/testbase/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +47,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/nopcommerce/demo/resources/propertiesfile" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -67,11 +58,11 @@
       <recent name="com.nopcommerce.demo.testsuite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo\resources\propertiesfile" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\main\java\com\nopcommerce\demo" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo\resources" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo\resources\xmlfiles" />
       <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project\src\test\java\com\nopcommerce\demo" />
-      <recent name="C:\PrimeBatch_2\sample-nopcommerce-maven-project\sample-maven-project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UsingExcel.testUsingExcel">
+  <component name="RunManager" selected="TestNG.LoginTest.userShouldLoginSuccessfully">
     <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.excelutility.ExcelRead" />
       <module name="sample-maven-project" />
@@ -110,23 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sample-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nopcommerce.demo.testsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTestWithDataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTestWithDataProvider.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sample-maven-project" />
       <extension name="coverage">
@@ -138,6 +112,24 @@
       <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
       <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTestWithDataProvider" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.userShouldLoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sample-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopcommerce.demo.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopcommerce.demo.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.nopcommerce.demo.testsuite.LoginTest" />
+      <option name="METHOD_NAME" value="userShouldLoginSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.userShouldLoginSuccessfully" />
         <item itemvalue="TestNG.UsingExcel.testUsingExcel" />
         <item itemvalue="Application.ExcelRead" />
         <item itemvalue="TestNG.LoginTestWithDataProvider.loginTest" />
         <item itemvalue="TestNG.C:/PrimeBatch_2/sample-nopcommerce-maven-project/sample-maven-project/src/test/java/com/nopcommerce/demo/resources/xmlfiles/testng-parallel.xml" />
-        <item itemvalue="TestNG.LoginTestWithDataProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572111481500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Today's demo">
+      <created>1572694349823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572694349839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
